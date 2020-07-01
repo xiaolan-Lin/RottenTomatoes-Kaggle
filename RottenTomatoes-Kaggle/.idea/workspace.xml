@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baa79d26-5f17-4231-a46c-34f4de0787a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/烂番茄电影评论情感分析.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stopwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/烂番茄电影评论情感分析.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/烂番茄电影评论情感分析.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -29,13 +31,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1ditJeiLkhTRsDBwH7WUkiJeX8b" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -52,7 +57,7 @@
       <recent name="D:\PycharmProjects\RottenTomatoes-Kaggle\data" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.analysis">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,6 +102,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RottenTomatoes-Kaggle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.analysis" />
+      <item itemvalue="Python.test1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -124,7 +160,8 @@
       <workItem from="1593195401014" duration="2676000" />
       <workItem from="1593449721604" duration="1830000" />
       <workItem from="1593493636926" duration="1361000" />
-      <workItem from="1593496318888" duration="13972000" />
+      <workItem from="1593496318888" duration="20798000" />
+      <workItem from="1593591989092" duration="17046000" />
     </task>
     <task id="LOCAL-00001" summary="修改文件名称">
       <created>1593496490298</created>
@@ -147,89 +184,99 @@
       <option name="project" value="LOCAL" />
       <updated>1593512272452</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="数据处理">
+      <created>1593583810085</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593583810085</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="修改文件名称" />
     <MESSAGE value="修改文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改文件" />
+    <MESSAGE value="数据处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据处理" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="726" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593496710112">
+    <state x="726" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593589294825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="726" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593496710112" />
-    <state x="872" y="113" key="CommitChangelistDialog2" timestamp="1593512271802">
+    <state x="726" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593589294825" />
+    <state x="872" y="113" key="CommitChangelistDialog2" timestamp="1593583809479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="872" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593512271802" />
+    <state x="872" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593583809479" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1593496357701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593496357701" />
-    <state width="1200" height="250" key="GridCell.Tab.0.bottom" timestamp="1593542373218">
+    <state width="1200" height="191" key="GridCell.Tab.0.bottom" timestamp="1593612758475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1200" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593542373218" />
-    <state width="1200" height="250" key="GridCell.Tab.0.center" timestamp="1593542373218">
+    <state width="1200" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593612758475" />
+    <state width="1200" height="191" key="GridCell.Tab.0.center" timestamp="1593612758475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1200" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593542373218" />
-    <state width="1200" height="250" key="GridCell.Tab.0.left" timestamp="1593542373217">
+    <state width="1200" height="191" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593612758475" />
+    <state width="1200" height="191" key="GridCell.Tab.0.left" timestamp="1593612758475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1200" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593542373217" />
-    <state width="1200" height="250" key="GridCell.Tab.0.right" timestamp="1593542373218">
+    <state width="1200" height="191" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593612758475" />
+    <state width="1200" height="191" key="GridCell.Tab.0.right" timestamp="1593612758475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1200" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593542373218" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1593503393688">
+    <state width="1200" height="191" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593612758475" />
+    <state width="1200" height="344" key="GridCell.Tab.1.bottom" timestamp="1593591974549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593503393688" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1593503393687">
+    <state width="1200" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593591974549" />
+    <state width="1200" height="344" key="GridCell.Tab.1.center" timestamp="1593591974549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593503393687" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1593503393687">
+    <state width="1200" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593591974549" />
+    <state width="1200" height="344" key="GridCell.Tab.1.left" timestamp="1593591974549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593503393687" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1593503393687">
+    <state width="1200" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593591974549" />
+    <state width="1200" height="344" key="GridCell.Tab.1.right" timestamp="1593591974549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593503393687" />
+    <state width="1200" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593591974549" />
     <state x="709" y="242" key="RollbackChangesDialog" timestamp="1593512020752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="709" y="242" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593512020752" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1593512011746">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1593587379308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593512011746" />
-    <state x="864" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593512288820">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593587379308" />
+    <state x="864" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593583817516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="864" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593512288820" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593496320360">
+    <state x="864" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593583817516" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593592016236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593496320360" />
-    <state x="1064" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593583777520">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593592016236" />
+    <state x="1064" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593612781894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1064" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593583777520" />
-    <state x="935" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1593541150612">
+    <state x="1064" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593612781894" />
+    <state x="935" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1593612314566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="935" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593541150612" />
+    <state x="935" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593612314566" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RottenTomatoes_Kaggle$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1593542373209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../" />
+    <SUITE FILE_PATH="coverage/RottenTomatoes_Kaggle$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1593612758471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../" />
     <SUITE FILE_PATH="coverage/RottenTomatoes_Kaggle$.coverage" NAME="烂番茄电影情感数据分析 Coverage Results" MODIFIED="1592920652590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../movieclassification" />
+    <SUITE FILE_PATH="coverage/RottenTomatoes_Kaggle$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1593589458065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../" />
   </component>
 </project>
